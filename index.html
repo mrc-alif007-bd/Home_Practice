@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER PAGE</title>
+</head>
+
+<body>
+    <h3>REGISTER PAGE</h3>
+    <form action="LogIn_Page.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            NAME: <br>
+            <input type="text" name="Fullname" placeholder="Enter Your Full Name" required> <br>
+            Age: <br>
+            <input type="number" name="age" placeholder="Enter Your Age"><br>
+            DOB: <br>
+            <input type="date" name="date" placeholder=""><br>
+            Gender: <br>
+
+            Male<input type="radio" name="Gender" value="Male"><br>
+            Female <input type="radio" name="Gender" value="Female"><br>
+            Others <input type="radio" name="Gender" value="Protibondhi"><br>
+
+            Phone: <br>
+            <input type="tel" name="phone number" placeholder="Enter Your Number"> <br>
+            Present Address: <br>
+            <textarea name="address" cols="30" rows="6" placeholder="Enter Your Present Address"
+                required></textarea><br>
+            permanent Address: <br>
+            <textarea name="address" cols="30" rows="6" placeholder="Enter Your permanent Address"
+                required></textarea><br>
+            District: <br>
+            <select name="District" required>
+                <option disabled selected>Select Your District</option>
+                <option>Dhaka</option>
+                <option>Rajshahi</option>
+                <option>Khulna</option>
+                <option>Barishal</option>
+                <option>Cumilla</option>
+                <option>Rangpur</option>
+                <option>Mymensing</option>
+            </select><br><br>
+            <button type="reset">Reset</button><br><br>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Registation</legend>
+            Email: <br>
+            <input type="email" name="email" placeholder="Enter your Email" required> <br>
+            Password: <br>
+            <input type="password" name="Password" placeholder="Enter yuor Password" required><br>
+            Resum: <br>
+            <input type="file"><br><br>
+            <button type="submit">REGISTER</button><br><br>
+            
+        </fieldset>
+    </form>
+</body>
+
+</html>
